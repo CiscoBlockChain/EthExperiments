@@ -51,4 +51,14 @@ docker run -d -p 3030:30303 -p 8545:8545 -v /var/lib/ethereum:/root/.ethereum --
 
 Running ```docker logs -f ethereum``` you should be able to see the blocks building.  
 
+## Initial Exercises
+
+How many peers are connected? 
+
+```
+curl -X POST --data '{"jsonrpc":"2.0","method":"net_peerCount","params":[],"id":74}' localhost:8545
+```
+
+Run a few more of the samples from the [JSON-RPC wiki](https://github.com/ethereum/wiki/wiki/JSON-RPC) 
+
 
