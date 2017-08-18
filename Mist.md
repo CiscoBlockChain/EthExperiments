@@ -1,4 +1,4 @@
-1.first of all we run this block of instructions:
+##1. first of all we run this block of instructions:
 
  `$ curl https://install.meteor.com/ | sh`
 
