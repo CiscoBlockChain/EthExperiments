@@ -2,7 +2,8 @@
 # Steps of running Mist Broweser on our VM:
 
 
-## A.Dependencies
+
+## Dependencies
 
 To run mist in development we need:
 
@@ -45,4 +46,5 @@ To run mist in development we need:
 ### 5.In the original window we apply:
 
   `$ cd mist`
+
   `$ electron`
