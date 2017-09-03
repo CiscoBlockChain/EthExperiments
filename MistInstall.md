@@ -7,7 +7,7 @@
 
 3- After you launch, you’ll see this:
 
-![](https://cdn-images-1.medium.com/max/1200/0*QOKHI2MXvZaNIu6r.?style= centerme)
+![](https://cdn-images-1.medium.com/max/1200/0*QOKHI2MXvZaNIu6r.)
 
 4- Once the node is fully synced, you’ll be asked to choose the network.
  Here we will choose Main network, which would let us spend our ether.
