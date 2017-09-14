@@ -20,8 +20,8 @@ Suppose Bob has a Raspberry Pi device with a GPU and a camera that is running [Y
 
 ```json
 [
-{'2011-09-11 10:48:38.23': {'persons' : 4, 'umbrellas': 3, 'chairs': 5, 'motorbike': 1, 'cellphone': 3}},
-{'2011-09-11 10:48:39.23': {'persons' : 8, 'umbrellas': 3, 'chairs': 5, 'cars': 4 }}
+{"2011-09-11 10:48:38.23": {"persons" : 4, "umbrellas": 3, "chairs": 5, "motorbike": 1, "cellphone": 3}},
+{"2011-09-11 10:48:39.23": {"persons" : 8, "umbrellas": 3, "chairs": 5, "cars": 4 }}
 ...
 ]
 ```
@@ -35,14 +35,15 @@ Alice's contract stipulates the terms:
 
 ```json
 {
-contract_address: 0x123...;
-schedule: { "monday" : {"begin": "16:00", "end": "19:00"}, 
-"tuesday" : {"begin": "16:00", "end": "19:00"}, 
-"wednesday" : {"begin": "16:00", "end": "19:00"}, 
-"thursday" : {"begin": "16:00", "end": "19:00"}, 
-"friday" : {"begin": "16:00", "end": "19:00"}, 
-begin_date: "2017-09-11",
-end_date: "2017-11-11"
+"contract_address": "0x123...";
+"schedule": {
+    "monday" : {"begin": "16:00", "end": "19:00"}, 
+	"tuesday" : {"begin": "16:00", "end": "19:00"}, 
+	"wednesday" : {"begin": "16:00", "end": "19:00"}, 
+	"thursday" : {"begin": "16:00", "end": "19:00"}, 
+	"friday" : {"begin": "16:00", "end": "19:00"}, 
+"begin_date": "2017-09-11",
+"end_date": "2017-11-11"
 }
 ```
 This contract essentially tells Bob's smart contract to append a URL to the list of addresses Bob may already have:
