@@ -35,15 +35,17 @@ Alice's contract stipulates the terms:
 
 ```json
 {
-"contract_address": "0x123...";
-"schedule": {
+  "contract_address": "0x123...",
+  "schedule": {
     "monday" : {"begin": "16:00", "end": "19:00"}, 
-	"tuesday" : {"begin": "16:00", "end": "19:00"}, 
-	"wednesday" : {"begin": "16:00", "end": "19:00"}, 
-	"thursday" : {"begin": "16:00", "end": "19:00"}, 
-	"friday" : {"begin": "16:00", "end": "19:00"}, 
-"begin_date": "2017-09-11",
-"end_date": "2017-11-11"
+    "tuesday" : {"begin": "16:00", "end": "19:00"}, 
+    "wednesday" : {"begin": "16:00", "end": "19:00"}, 
+    "thursday" : {"begin": "16:00", "end": "19:00"}, 
+    "friday" : {"begin": "16:00", "end": "19:00"}, 
+    "begin_date": "2017-09-11",
+    "end_date": "2017-11-11"
+  },
+  "payment": "0.1"
 }
 ```
 This contract essentially tells Bob's smart contract to append a URL to the list of addresses Bob may already have:
