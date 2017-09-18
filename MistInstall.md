@@ -7,9 +7,8 @@
 
 3- After you launch, you’ll see this:
 
-<p align="center">
-  ![](https://cdn-images-1.medium.com/max/1200/0*QOKHI2MXvZaNIu6r.)
-</p>
+![Right-aligned image](https://cdn-images-1.medium.com/max/1200/0*QOKHI2MXvZaNIu6r.)
+
 
 
 4- Once the node is fully synced, you’ll be asked to choose the network.
