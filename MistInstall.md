@@ -7,7 +7,7 @@
 
 3- After you launch, you’ll see this:
 
-![Right-aligned image](https://cdn-images-1.medium.com/max/1200/0*QOKHI2MXvZaNIu6r.)
+![Center-aligned image](https://cdn-images-1.medium.com/max/1200/0*QOKHI2MXvZaNIu6r.)
 
 
 
@@ -15,7 +15,7 @@
  Here we will choose Main network, which would let us spend our ether.
 
 
-![](https://cdn-images-1.medium.com/max/1200/0*d6WmYfXrpixQvC0B.?style=centerme)
+![Center-aligned image](https://cdn-images-1.medium.com/max/1200/0*d6WmYfXrpixQvC0B.?style=centerme)
 
 
 5- Protect your account with a strong password. Put in the strong password and remember it.You cannot EVER change the password of this account once it’s created. So, remember the password.
