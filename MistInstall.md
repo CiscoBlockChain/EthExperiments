@@ -6,12 +6,14 @@
 2- Once you click on the link, it’ll automatically start to download the zip file. After you unzip the folder, look for Ethereum-Wallet application and launch it.
 
 3- After you launch, you’ll see this:
+
 ![](https://cdn-images-1.medium.com/max/1200/0*QOKHI2MXvZaNIu6r.)
 
 
 
 4- Once the node is fully synced, you’ll be asked to choose the network.
  Here we will choose Main network, which would let us spend our ether.
+ 
 ![](https://cdn-images-1.medium.com/max/1200/0*d6WmYfXrpixQvC0B.)
 
 
@@ -19,6 +21,7 @@
 
 6- Your Account Address
 Go inside the ‘MAIN ACCOUNT’. The string below your account name is your account address. It starts with 0x.
+
 ![](https://cdn-images-1.medium.com/max/1200/0*LRfYV2v4aDMW5Cyu.)
 
 
