@@ -7,7 +7,7 @@
 
 3- After you launch, you’ll see this:
 
-![](https://cdn-images-1.medium.com/max/1200/0*QOKHI2MXvZaNIu6r.png =250x250)
+![](https://cdn-images-1.medium.com/max/1200/0*QOKHI2MXvZaNIu6r.png | width=100)
 
 
 
