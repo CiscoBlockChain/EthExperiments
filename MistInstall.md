@@ -7,7 +7,7 @@
 
 3- After you launch, you’ll see this:
 
-![](https://cdn-images-1.medium.com/max/1200/0*QOKHI2MXvZaNIu6r.s=200)
+![](https://cdn-images-1.medium.com/max/1200/0*QOKHI2MXvZaNIu6r.)
 
 
 
