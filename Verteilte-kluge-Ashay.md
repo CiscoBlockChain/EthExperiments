@@ -1,4 +1,4 @@
-# Decentralization Project Proposal
+# Verteilte kluge Ashya Project Proposal
 
 A project proposed by the Cisco applied science technology labs (CASTL)
 

@@ -1,4 +1,4 @@
-# Downloading the Ethereum Mist Wallet.
+## Downloading the Ethereum Mist Wallet.
 
 1- To store, accept and send ether, you need a wallet. Download the latest release of mist wallet which is compatible to your OS:
 [Here](https://github.com/ethereum/mist/releases)
@@ -9,11 +9,12 @@
 
 ![](https://cdn-images-1.medium.com/max/1200/0*QOKHI2MXvZaNIu6r.)
 
+
+
 4- Once the node is fully synced, you’ll be asked to choose the network.
  Here we will choose Main network, which would let us spend our ether.
-
-
-![](https://cdn-images-1.medium.com/max/1200/0*d6WmYfXrpixQvC0B.?style=centerme)
+ 
+![](https://cdn-images-1.medium.com/max/1200/0*d6WmYfXrpixQvC0B.)
 
 
 5- Protect your account with a strong password. Put in the strong password and remember it.You cannot EVER change the password of this account once it’s created. So, remember the password.
