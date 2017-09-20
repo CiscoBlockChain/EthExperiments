@@ -36,3 +36,23 @@ Reboot machine.
 ## Test Camera
 
 We attached a simple USB camera to the RP2 and followed [these instructions](https://pimylifeup.com/raspberry-pi-webcam-server/) to create a camera monitoring system. 
+
+IANS:
+
+```
+sudo apt-get install libmariadbclient18 libpq5 libavcodec57  libavformat57 libavutil55 libswscale4
+sudo wget https://github.com/Motion-Project/motion/releases/download/release-4.0.1/pi_stretch_motion_4.0.1-1_armhf.deb
+sudo dpkg -i pi_stretch_motion_4.0.1-1_armhf.deb
+```
+
+Edit the ```/etc/motion/motion.conf``` to appear like [this example](./RP/motion.conf) and ```/etc/default/motion``` to appear like [this example](./RP/motion) 
+
+Stop and restart the service
+
+```
+sudo service motion stop
+sudo service motion start
+```
+
+
+
