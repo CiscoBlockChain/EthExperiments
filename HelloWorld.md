@@ -82,7 +82,7 @@ In order to deploy the contract. First create a contract object (VotingContract 
 
 > byteCode = compiledCode.contracts[':Voting'].bytecode
 
-> deployedContract = VotingContract.new['Rama','Nick','Jose'],data:byteCode,from:web3.eth.accounts[0], gas: 4700000})
+> deployedContract = VotingContract.new['Rama','Nick','Jose'],{data:byteCode,from:web3.eth.accounts[0], gas: 4700000})
 
 > deployedContract.address
 
