@@ -32,3 +32,9 @@ Then make darknet
 make
 ```
 
+run the darknet command
+
+```
+./darknet detector demo cfg/coco.data cfg/yolo.cfg yolo.weights
+````
+
