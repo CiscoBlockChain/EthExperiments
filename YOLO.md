@@ -32,6 +32,12 @@ Then make darknet
 make
 ```
 
+Dowload the pre-trained weights file
+ 
+```
+wget https://pjreddie.com/media/files/yolo.weights
+```
+
 run the darknet command
 
 ```
