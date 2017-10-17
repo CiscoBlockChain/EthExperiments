@@ -32,3 +32,24 @@ Then make darknet
 make
 ```
 
+## YAD2k
+
+```
+pip install numpy
+sudo apt-get install libhdf5-dev python-scipy
+sudo apt-get install libopenblas-dev
+```
+
+This next part takes forever:
+```
+pip install h5py pillow
+```
+This part takes forever!!!
+
+```
+pip install keras tensorflow
+```
+
+```
+docker run -it -v ~/:/home/pi imelnik/rpi-python3-tensorflow-opencv /bin/bash
+```			
