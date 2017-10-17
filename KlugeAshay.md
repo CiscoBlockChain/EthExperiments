@@ -1,4 +1,4 @@
-# Verteilte kluge Ashya Project Proposal
+# Kluge_Ashya Project Proposal
 
 A project proposed by the Cisco applied science technology labs (CASTL)
 
