@@ -32,7 +32,6 @@ Then make darknet
 make
 ```
 
-<<<<<<< HEAD
 ## YAD2k
 
 ```
@@ -54,7 +53,7 @@ pip install keras tensorflow
 ```
 docker run -it -v ~/:/home/pi imelnik/rpi-python3-tensorflow-opencv /bin/bash
 ```			
-=======
+
 Dowload the pre-trained weights file
  
 ```
@@ -67,4 +66,4 @@ run the darknet command
 ./darknet detector demo cfg/coco.data cfg/yolo.cfg yolo.weights
 ````
 
->>>>>>> 1a4f2f4fbb1b949911027cdd310638b100e886d5
+
