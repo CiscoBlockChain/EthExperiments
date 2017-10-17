@@ -1,4 +1,4 @@
-# Kluge_Ashya Project Proposal
+# Kluge Ashya Project
 
 A project proposed by the Cisco applied science technology labs (CASTL)
 
@@ -65,28 +65,28 @@ By entering into this contract Alice is paying Bob using Ether to get this data 
 
 ### Project Scope
 
-1. Objective 1: Raspberry Pi's with connected Devices
-1. Objective 2: Smart Contracts 
-1. Objective 3: Centralized Web Interface
+1. [ ] Objective 1: Raspberry Pi's with connected Devices
+1. [ ] Objective 2: Smart Contracts 
+1. [ ] Objective 3: Centralized Web Interface
 
 #### Objective 1:  Raspberry Pi's with connected Devices
 
-* Install Linux on Raspberry Pi
-* Install Sensor on Raspberry Pi
-* Write code that gets data from these sensors and prints them out in real time. 
-* Update code to references a file ```~/urls.json``` and checks every minute for changes to this file.  Instead of printing to the screen print data to those URLs. 
+* [x] Install Linux on Raspberry Pi
+* [x] Install Sensor on Raspberry Pi (in this case we are using standard USB cameras)
+* [ ] Write code that gets data from these sensors and prints them out in real time. (Here we wish to use yolo or some other AI to recognize objects in real time.  This portion is taking a great deal of our time.)
+* [ ] Update code to references a file ```~/urls.json``` and checks every minute for changes to this file.  Instead of printing to the screen print data to those URLs. 
 
 #### Objective 2:  Smart Contract
 
-* Install private Ethereum chain on several Raspberry Pis.  
-* Write a solidity contract that references a device.  The contract will have the device's public key as data that can not be changed.  
-* Send contracts that update the state of the URL list. 
-* Figure out how to use smart contracts to update the URL list based on time of day, etc. 
-* Have the RP use the ```json-rpc``` to read the URL list as opposed to the ```~/urls.json``` file.  
+* [ ] Install private Ethereum chain on several Raspberry Pis.  
+* [ ] Write a solidity contract that references a device.  The contract will have the device's public key as data that can not be changed.  
+* [ ] Send contracts that update the state of the URL list. 
+* [ ] Figure out how to use smart contracts to update the URL list based on time of day, etc. 
+* [ ] Have the RP use the ```json-rpc``` to read the URL list as opposed to the ```~/urls.json``` file.  
 
 #### Objective 3:  Centralized Web Server
-* WebServer uses a local ```json-rpc``` calls to determine what nodes are in the system and where they are currently sending data. 
-* Lists potential nodes that have registered in this blockchain that users may wish to stream. 
+* [ ] WebServer uses a local ```json-rpc``` calls to determine what nodes are in the system and where they are currently sending data. 
+* [ ] Lists potential nodes that have registered in this blockchain that users may wish to stream. 
 
 
 ## FAQ
