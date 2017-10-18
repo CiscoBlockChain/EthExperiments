@@ -52,7 +52,7 @@ Formatted example might look like the following:
 	"objects": [
 		{"object" : "basketball" , "certainty" : ".77"},
 		{"object" : "chair", "certainty" : ".40"},
-		{"object" : "table", "certainty: : ".20"}
+		{"object" : "table", "certainty" : ".20"}
 	]
 }
 ```
