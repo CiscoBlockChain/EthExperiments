@@ -22,10 +22,10 @@ The file will look as follows:
 
 ```json
 
-{ 'urls' : 
+{ "urls" : 
 	[ 
-		'https://ashya.ai/stream/sana', 
-  		'https://foobar.com/uploads/joud',
+		"https://ashya.ai/stream/sana", 
+  		"https://foobar.com/uploads/joud",
     ]
 }
 ```
@@ -48,8 +48,8 @@ Formatted example might look like the following:
 
 ```json
 {
-	timestamp: '2017-10-08T00:19:30.000',
-	objects: [
+	"timestamp": "2017-10-08T00:19:30.000",
+	"objects": [
 		{"object" : "basketball" , "certainty" : ".77"},
 		{"object" : "chair", "certainty" : ".40"},
 		{"object" : "table", "certainty: : ".20"}
