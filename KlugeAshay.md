@@ -76,6 +76,8 @@ By entering into this contract Alice is paying Bob using Ether to get this data 
 * [ ] Write code that gets data from these sensors and prints them out in real time. (Here we wish to use yolo or some other AI to recognize objects in real time.  This portion is taking a great deal of our time.)
 * [ ] Update code to references a file ```~/urls.json``` and checks every minute for changes to this file.  Instead of printing to the screen print data to those URLs. 
 
+[See this page for more details](Ashya-Part1.md)
+
 #### Objective 2:  Smart Contract
 
 * [ ] Install private Ethereum chain on several Raspberry Pis.  
