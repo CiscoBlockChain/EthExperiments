@@ -6,12 +6,12 @@ This part of the project is to make a service that takes pictures and sends the 
 
 The requirements are the following: 
 
-1. [ ] Should be written in latest version of Python 3.x
-1. [ ] Program can be called something like ```ashya-collector.py```
-1. [ ] Starts up as a running service that runs on port 5050.  
-1. [ ] Service may be a [flask](http://flask.pocoo.org/docs/0.12/python3/) application so that it can be queried from time to time. If not flask, some other WSGI.
+1. [x] Should be written in latest version of Python 3.x
+1. [x] Program can be called something like ```ashya-collector.py```
+1. [x] Starts up as a running service that runs on port 5050.  
+1. [x] Service may be a [flask](http://flask.pocoo.org/docs/0.12/python3/) application so that it can be queried from time to time. If not flask, some other WSGI.
 1. [ ] Checks the ```~/urls.json``` file for which URLs to send data too. (See below for the format).  The URLs are kept in a global class variable that is in memory throughout the duration of the program.  The program checks this file every 1 minute to see if there are changes and then modifies the 
-1. [ ] Running the command: ```curl localhost:5050/urls``` should return the current URLs that the application is servicing. 
+1. [x] Running the command: ```curl localhost:5050/urls``` should return the current URLs that the application is servicing. 
 1. [ ] Create two docker images that will dockerize the application.  The first docker image runs on x86 and the second runs on Raspberry Pi. If you only need one docker image then that is fine too.  The Docker image should be called ```ashya/collector``` 
 
 
