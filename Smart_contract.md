@@ -1,4 +1,4 @@
-# Using Remix, a Solidity web browser based IDE that allows us to write and debug Solidity smart contracts.
+# Using [Remix](https://remix.ethereum.org), a Solidity web browser based IDE that allows us to write and debug Solidity smart contracts.
 
 ### First: We made a simple smart contract that shows the address of the contract's creator and displays a greeting:
 
