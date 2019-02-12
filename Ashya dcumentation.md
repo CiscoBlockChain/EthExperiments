@@ -30,11 +30,17 @@ fkbg7t4r
 
 8- Connect your raspberry pi to the internet and enable SSh interface.
 
-9- Get the IP address of your raspberry pi and save it. 
+9- Get the IP address of your raspberry pi by running `ifconfig` in the terminal.
+
+10- Save the IP address for later.
 
 #### 1.2 Get [Docker](https://docs.docker.com/) 
 
 Our web application will run inside a docker container, so in order to be able to run the web application you need to download and install [Docker](https://docs.docker.com/install/linux/docker-ce/debian/) on your raspberry pi.
+
+Alternatively, you can install docker by running this command in the terminal:
+
+`sudo curl -sSL https://get.docker.com | sh`
 
 Verify that Docker CE is installed correctly by running
 `
@@ -42,6 +48,8 @@ $ sudo docker run hello-world
 `
 
  When the container runs, it prints an informational message (Hello from Docker!) and exits.
+ 
+ PS: don't forget to write sudo when running docker commands, else you will get permission denied error. 
 
 ### 2- Run the application 
 
