@@ -50,23 +50,25 @@ Metamask is a browser extension provides a user interface to manage identities o
 In this demo, every new device is represented by a smart contract. So we will use Metamask to enable us to deploy smart contracts on the blockchain and register devices to [Ashya.io](https://ashya.io/) to be visible for subscribers.
 
 You can get the extension from [Metamask](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn) 
+A full guide for using Metamask you can find [here](https://medium.com/publicaio/a-complete-guide-to-using-metamask-updated-version-cd0d6f8c338f)
 
 #### 2.1.2 Create an account on Kovan-testnetwork.
-#### 2.1.3 Get some fake ether 
-Once you create an account, get some fake ether from [Kovan testnet/Fauset](https://gitter.im/kovan-testnet/faucet) by posting your account address and requesting fake ether.
+
+#### 2.1.3 Get some ether 
+Once you create an account, get some fake ether from [Kovan testnet/Fauset](https://gitter.im/kovan-testnet/faucet) by signing in to this web site and posting your account address in the chat box you can request ether.
 
 We now need to get the code from GitHub, in order to build our system. So first you will need to install Git in your Raspberry pi.
 
-#### 2.2.1 SSH to Raspberry Pi
-Establish a SSH connection to your Raspberry Pi using PuTTY, insert the IP address of the raspberry pi in the host name field.
+#### 2.1.4 SSH to Raspberry Pi
+Establish SSH connection to your Raspberry Pi using PuTTY, insert the IP address of the raspberry pi in the host name field.
 
-#### 2.3.1 Download Git on the Raspberry Pi
+#### 2.1.5 Download Git on the Raspberry Pi
 Run:
 
 `sudo apt install git`
 
 
-#### 2.4.1 Download this repository###
+#### 2.1.6 Download this repository
 On the command line go to a directory where you will remember (I use ~/Code for all my code, but feel free to customize as you desire),from there, run:
 
 `git clone https://github.com/CiscoBlockChain/AshyaDeviceService.git `
