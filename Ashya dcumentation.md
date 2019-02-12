@@ -12,7 +12,7 @@ fkbg7t4r
 - Download and install a compatible [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) version on your computer.
 
 ### 1- Setup your Raspberry Pi 3
-#### 1.1.1 Install OS on the Raspberry Pi
+#### 1.1 Install OS on the Raspberry Pi
 1- Download the latest Raspbian stretch desktop image from [here](https://www.raspberrypi.org/downloads/raspbian/)
 
 
@@ -32,7 +32,7 @@ fkbg7t4r
 
 9- Get the IP address of your raspberry pi and save it. 
 
-#### 1.1.2 Get [Docker](https://docs.docker.com/) 
+#### 1.2 Get [Docker](https://docs.docker.com/) 
 
 Our web application will run inside a docker container, so in order to be able to run the web application you need to download and install [Docker](https://docs.docker.com/install/linux/docker-ce/debian/) on your raspberry pi.
 
@@ -45,30 +45,30 @@ $ sudo docker run hello-world
 
 ### 2- Run the application 
 
-#### 2.1.1 Get Metamask
+#### 2.1 Get Metamask
 Metamask is a browser extension provides a user interface to manage identities on different sites and sign blockchain transactions.
 In this demo, every new device is represented by a smart contract. So we will use Metamask to enable us to deploy smart contracts on the blockchain and register devices to [Ashya.io](https://ashya.io/) to be visible for subscribers.
 
 You can get the extension from [Metamask](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn) 
 A full guide for using Metamask you can find [here](https://medium.com/publicaio/a-complete-guide-to-using-metamask-updated-version-cd0d6f8c338f)
 
-#### 2.1.2 Create an account on Kovan-testnetwork.
+#### 2.2 Create an account on Kovan-testnetwork.
 
-#### 2.1.3 Get some ether 
+#### 2.3 Get some ether 
 Once you create an account, get some fake ether from [Kovan testnet/Fauset](https://gitter.im/kovan-testnet/faucet) by signing in to this web site and posting your account address in the chat box you can request ether.
 
 We now need to get the code from GitHub, in order to build our system. So first you will need to install Git in your Raspberry pi.
 
-#### 2.1.4 SSH to Raspberry Pi
+#### 2.4 SSH to Raspberry Pi
 Establish SSH connection to your Raspberry Pi using PuTTY, insert the IP address of the raspberry pi in the host name field.
 
-#### 2.1.5 Download Git on the Raspberry Pi
+#### 2.5 Download Git on the Raspberry Pi
 Run:
 
 `sudo apt install git`
 
 
-#### 2.1.6 Download this repository
+#### 2.6 Download this repository
 On the command line go to a directory where you will remember (I use ~/Code for all my code, but feel free to customize as you desire),from there, run:
 
 `git clone https://github.com/CiscoBlockChain/AshyaDeviceService.git `
