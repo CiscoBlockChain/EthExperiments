@@ -60,7 +60,7 @@ A full guide for using Metamask you can find [here](https://medium.com/publicaio
 #### 2.2 Create an account on Kovan-testnetwork.
 
 #### 2.3 Get some ether 
-Once you create an account, get some fake ether from [Kovan testnet/Fauset](https://gitter.im/kovan-testnet/faucet) by signing in to this web site and posting your account address in the chat box you can request ether.
+Once you create an account, get some fake ether from [Kovan testnet/Fauset](https://gitter.im/kovan-testnet/faucet) by signing in to this website and posting your account address in the chat box, you can request ether.
 
 We now need to get the code from GitHub, in order to build our system. So first you will need to install Git in your Raspberry pi.
 
