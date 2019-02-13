@@ -88,6 +88,13 @@ Then run:
 
 `sudo docker-compose up -d`
 
+  Make sure you watch the screen until you start seeing all the containers get up. 
+  Open the web browser to the IP address of your Rpi
+  Try to run through the menus and register your device in Ashya.io. 
+  Go to ashya.io page and you will see your Device contract address listed in the registered devices.
+ 
+
+
 
 
 
