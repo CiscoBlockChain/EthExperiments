@@ -65,9 +65,10 @@ Once you create an account, get some fake ether from [Kovan testnet/Fauset](http
 We now need to get the code from GitHub, in order to build our system. So first you will need to install Git in your Raspberry pi.
 
 #### 2.4 SSH to Raspberry Pi
-Establish SSH connection to your Raspberry Pi using PuTTY, insert the IP address of the raspberry pi in the host name field.
+Establish SSH connection to your Raspberry Pi using PuTTY, insert the IP address of the raspberry pi in the host name field and then press open.
 
 #### 2.5 Download Git on the Raspberry Pi
+
 Run:
 
 `sudo apt install git`
