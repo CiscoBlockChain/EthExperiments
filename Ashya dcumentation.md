@@ -39,12 +39,26 @@ Alternatively, you can install docker by running this command in the terminal:
 
 `sudo curl -sSL https://get.docker.com | sh`
 
+Or:
+
+`curl -fsSL get.docker.com -o get-docker.sh && sh get-docker.sh`
+
 Verify that Docker CE is installed correctly by running
 `
 $ sudo docker run hello-world
 `
 
  When the container runs, it prints an informational message (Hello from Docker!) and exits.
+ 
+ Install docker compose:
+
+ Compose is a tool for defining and running multi-container Docker applications. With Compose, you will be able to run YAML file which   contains all the container need to configure our application's services. 
+ 
+ `sudo apt-get install -y python python-pip`
+ 
+ `sudo pip install docker-compose`
+ 
+ `docker-compose build`
  
  PS: don't forget to write sudo when running docker commands, else you will get permission denied error. 
 
