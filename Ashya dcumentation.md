@@ -6,7 +6,8 @@ A full description of this project you can find [here](https://github.com/CiscoB
 ### To run this demo you need: 
 - Raspberry Pi 3. You can order it from [here](https://www.amazon.de/dp/B07BFVYMJY/ref=asc_df_B07BFVYMJY58454054/?tag=googshopde-21&creative=22434&creativeASIN=B07BFVYMJY&linkCode=df0&hvadid=309008177512&hvpos=1o2&hvnetw=g&hvrand=14415320193451425642&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9061139&hvtargid=pla-436476818288&th=1&psc=1&tag=&ref=&adgrpid=65257070361&hvpone=&hvptwo=&hvadid=309008177512&hvpos=1o2&hvnetw=g&hvrand=14415320193451425642&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9061139&hvtargid=pla-436476818288)
 - A simple [webcam](https://www.google.com/search?rlz=1C1CHBD_enDE756DE756&biw=1280&bih=578&tbm=shop&ei=7HBhXNGqKc2asAe42IfIDw&q=simple+web+camera+logitech&oq=simple+web+camera+logitech&gs_l=psy-ab.3...15777.17091.0.17342.7.7.0.0.0.0.120.542.6j1.7.0....0...1c.1.64.psy-ab..0.0.0....0.pPMYop3Q7Lw#spd=15610673823399521644) 
-- Download and install a compatible [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) version on your computer.
+- If you are using windows: download and install a compatible [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) version on your computer.
+- For Mac or Linux users you can SSH to your raspberry Pi directly from your command shell 
 
 ### 1- Setup your Raspberry Pi 3
 #### 1.1 Install OS on the Raspberry Pi
@@ -33,6 +34,8 @@ A full description of this project you can find [here](https://github.com/CiscoB
 
 #### 1.2 Get [Docker](https://docs.docker.com/) 
 
+##### 1.1 Download and install Docker for raspberry Pi:
+
 Our web application will run inside a docker container, so in order to be able to run the web application you need to download and install [Docker](https://docs.docker.com/install/linux/docker-ce/debian/) on your raspberry pi.
 
 Alternatively, you can install docker by running this command in the terminal:
@@ -50,7 +53,7 @@ $ sudo docker run hello-world
 
  When the container runs, it prints an informational message (Hello from Docker!) and exits.
  
- Install docker compose:
+ ##### 1.2 Install docker compose:
 
  Compose is a tool for defining and running multi-container Docker applications. With Compose, you will be able to run YAML file which   contains all the container need to configure our application's services. 
  
@@ -89,6 +92,7 @@ Run:
 
 
 #### 2.6 Download this repository
+
 On the command line go to a directory where you will remember (I use ~/Code for all my code, but feel free to customize as you desire),from there, run:
 
 `git clone https://github.com/CiscoBlockChain/AshyaDeviceService.git `
@@ -105,11 +109,40 @@ Then run:
 
   Make sure you watch the screen until you start seeing all the containers get up. 
   
-  Open the web browser to the IP address of your Rpi
+ #### 2.7 Create a device contract
+ 
+ Open the web browser to the IP address of your Rpi
   
-  Try to run through the menus and register your device in [Ashya.io](https://ashya.io/). 
+ Try to run through the menus and register your device in [Ashya.io](https://ashya.io/). 
+ 
+ A metamask window will pop up to confirm the transaction on Kovan testnet. Press submit to create the Device.
   
-  Go to [ashya.io](https://ashya.io/) page and you will see your Device contract address listed in the registered devices.
+ If everything goes well you should see this page:
+ 
+ ![]("Device")
+ 
+ #### 2.8 Optionally: Register your device on Ashya.io
+ 
+ If you want the people to see your device and subscribe to the stream of data produced by your device, you cann press Register Device button and confirm the transaction. This will charge you a little more ether. 
+ 
+ If the registration process goes fine, go to Ashya.io page and refresh it. You should see your device address listed in the page. 
+ Press on your device address to go to adding suscribers page. 
+ 
+ 
+ 
+ ![]("Register")
+ 
+ Here you can add a callback URL which specifies where the recieved data should go to. 
+ After adding a subscriber and submitting the transaction on Metamask, your Url will be listed in the suscribers list and the json   output recieved from the object recognition software will be sent in directly and realtime to this URL. 
+ 
+ 
+ You can watch a full demonstration of running this project [here](https://www.youtube.com/watch?v=ROwVSwbi4Mo)
+ 
+ 
+ 
+ 
+ 
+
  
 
 
